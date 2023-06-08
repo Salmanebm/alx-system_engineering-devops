@@ -1,1 +1,1 @@
-file path
+shell basics current path
