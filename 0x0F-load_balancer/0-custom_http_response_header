@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
+# configures ubuntu serveur with custom header
 
-# Update package lists
 sudo apt-get -y update
 
 # Install Nginx
