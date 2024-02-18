@@ -9,5 +9,7 @@ sudo apt-get -y install nginx
 # Configure custom header in Nginx
 sudo sed -i '/listen 80 default_server;/a \ \ \ \ add_header X-Served-By $hostname;' /etc/nginx/sites-available/default
 
+add_header X-Served-By $hostname;
+
 # Restart Nginx
 sudo systemctl restart nginx
